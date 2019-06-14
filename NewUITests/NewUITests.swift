@@ -32,7 +32,7 @@ class NewUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let app = XCUIApplication()
-        let button = app.buttons["button"]
+        let button = app.buttons["Button"]
         XCTAssert(button.exists)
         button.tap()
         XCTAssert(button.exists)
